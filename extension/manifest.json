@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "头歌 EduCoder 视频自动播放",
+  "version": "3.4.0",
+  "description": "自动播放头歌视频，支持倍速、静音、视频结束后自动切下一节",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.educoder.net/*",
+        "*://*.educoder.net/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ]
+}
