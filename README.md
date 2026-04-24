@@ -13,5 +13,5 @@
 
 1.倍速最高支持x16
 
-2.educoder-autoplay.user文件为油猴脚本,需要也可以下载
+
 
